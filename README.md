@@ -8,18 +8,7 @@ Parameterizable design: Easily scalable to different input or data widths.
 Comprehensive verification: The testbench covers various functional scenarios to ensure correct operation.
 
 1. Design Specifications
-Block Diagram
-sql
-Copy code
-        +--------------------+
-        |      4:1 MUX       |
-        |                    |
-  A ----|                    |---- Output
-  B ----|                    |
-  C ----|                    |
-  D ----|                    |
-        |      Select        |
-        +--------------------+
+
 Design Details
 Input Ports:
 A - 4-bit input ([3:0])
