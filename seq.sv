@@ -9,7 +9,7 @@ class seq extends uvm_sequence#(trans);
 
  virtual task body();
  t=trans::type_id::create("t");
- repeat(20)
+  repeat(50)
   begin
    start_item(t);
    t.randomize();
